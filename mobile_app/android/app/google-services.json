@@ -7,6 +7,28 @@
   "client": [
     {
       "client_info": {
+<<<<<<< HEAD
+=======
+        "mobilesdk_app_id": "1:557414020901:android:4355f7f76407cd81b48ccc",
+        "android_client_info": {
+          "package_name": "com.example.mobile_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhAflrGfaot3ANS9zFRKOSlHjcLCPd-Ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+>>>>>>> 30fef52e967bdcb7869f2953d52f3ced20dfb625
         "mobilesdk_app_id": "1:557414020901:android:ac01636f7f070bb6b48ccc",
         "android_client_info": {
           "package_name": "com.waterlevel.monitoring"

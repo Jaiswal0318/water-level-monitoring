@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Top-level build.gradle.kts
 
 plugins {
@@ -6,6 +7,8 @@ plugins {
     kotlin("android") version "1.9.23" apply false
 }
 
+=======
+>>>>>>> 30fef52e967bdcb7869f2953d52f3ced20dfb625
 allprojects {
     repositories {
         google()
