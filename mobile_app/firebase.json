@@ -1,0 +1,41 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "water-level-monitoring-23dcf",
+          "appId": "1:557414020901:android:4355f7f76407cd81b48ccc",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "water-level-monitoring-23dcf",
+          "configurations": {
+            "android": "1:557414020901:android:4355f7f76407cd81b48ccc",
+            "ios": "1:557414020901:ios:7c54160fdff32514b48ccc",
+            "macos": "1:557414020901:ios:7c54160fdff32514b48ccc",
+            "web": "1:557414020901:web:4e1fd30f7b8c7e7eb48ccc",
+            "windows": "1:557414020901:web:ac2110ce47079553b48ccc"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}
