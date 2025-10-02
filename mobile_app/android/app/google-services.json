@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "557414020901",
+    "project_id": "water-level-monitoring-23dcf",
+    "storage_bucket": "water-level-monitoring-23dcf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557414020901:android:ac01636f7f070bb6b48ccc",
+        "android_client_info": {
+          "package_name": "com.waterlevel.monitoring"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhAflrGfaot3ANS9zFRKOSlHjcLCPd-Ls"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
